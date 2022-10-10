@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO-LIST</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar"> 
+        <p> OSIBS TO DO LIST</p> 
+    </div>
+<br><br>
+<h1> TO-DO LIST USING JAVASRIPT</h1>
+    <div class="general_container">
+        
+        <div class="list">
+            <label for="">Task Name</label> 
+            <span class="error1"> </span>
+            <input type="text" class="taskName" placeholder="Task name...">
+            
+
+            <label for="">Task Location</label>
+            <span class="error2"> </span> 
+            <select name="" id="taskLocation">
+                
+            </select>
+            
+
+            <label for=""> Task Type</label>
+            <span class="error3"></span>
+            <select name="" id="taskType">
+                <option value="Select">Select a task</option>
+                <option value="Coding">Coding</option>
+                <option value="Eating">Eating</option>
+                <option value="Sleeping">Sleeping</option>
+                <option value="Dancing">Dancing</option>
+            </select>
+            
+
+            <label for="">Task Reason</label>
+            <span class="error4"></span>
+            <textarea name="" id="textArea" cols="30" rows="10">
+                
+
+            </textarea>
+            
+            <button class="task_btn"> Make  A Task </button>
+        </div>
+
+        <div class="box_2">
+            <h2>Your Task</h2>
+            <ul class="ul">
+
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
